@@ -3,79 +3,79 @@
         {
             "period": "1",
             "teacher": "RR Sir",
-            "link": "https://us04web.zoom.us/j/3931338015?pwd=Qk5OaVdJeFZ1MnNYaTNTZVgvNU8rdz09"
+            "link": "zoommtg://zoom.us/join?confno=3931338015&pwd=Qk5OaVdJeFZ1MnNYaTNTZVgvNU8rdz09"
         },
         {
             "period": "2",
             "teacher": "JBB Sir",
-            "link": "https://us04web.zoom.us/j/4732843005?pwd=VmZzZWQ0UVlHNFB6c3IvRzlRVXZIQT09"
+            "link": "zoommtg://zoom.us/join?confno=4732843005&pwd=VmZzZWQ0UVlHNFB6c3IvRzlRVXZIQT09"
         }
     ],
     "Sunday": [
         {
             "period": "1",
             "teacher": "ANK Sir",
-            "link": "https://us04web.zoom.us/j/2809826881?pwd=OHdwQTNLb1RXR1ZGUGNBanhPZTRPUT09"
+            "link": "zoommtg://zoom.us/join?confno=2809826881&pwd=OHdwQTNLb1RXR1ZGUGNBanhPZTRPUT09"
         },
         {
             "period": "2",
             "teacher": "MFA Sir",
-            "link": "https://us04web.zoom.us/j/7250500211?pwd=VU5ZR28vVnRwMUhVZG9RVml4dnRDZz09"
+            "link": "zoommtg://zoom.us/join?confno=7250500211&pwd=VU5ZR28vVnRwMUhVZG9RVml4dnRDZz09"
         }
     ],
     "Monday": [
         {
             "period": "1",
             "teacher": "SBM Miss",
-            "link": "https://us04web.zoom.us/j/8956845233?pwd=VlRVbElpOWdJaitFM0Rtb08rWEhUUT09"
+            "link": "zoommtg://zoom.us/join?confno=8956845233&pwd=VlRVbElpOWdJaitFM0Rtb08rWEhUUT09"
         },
         {
             "period": "2",
             "teacher": "AHB Sir",
-            "link": "https://us04web.zoom.us/j/5214546885?pwd=UVRhU1hIMTAxVVljRG15MG5DeTRYUT09"
+            "link": "zoommtg://zoom.us/join?confno=5214546885&pwd=UVRhU1hIMTAxVVljRG15MG5DeTRYUT09"
         }
     ],
     "Tuesday": [
         {
             "period": "1",
             "teacher": "MMR Sir",
-            "link": "https://us04web.zoom.us/j/3010675995?pwd=eVBWNmd4ZUxUUEN3YUo0RXJyN0tYdz09"
+            "link": "zoommtg://zoom.us/join?confno=3010675995&pwd=eVBWNmd4ZUxUUEN3YUo0RXJyN0tYdz09"
         },
         {
             "period": "2",
             "teacher": "MKZ Sir",
-            "link": "https://us04web.zoom.us/j/9953216848?pwd=VmtuRDIwREM2V1M5cVYxOUpZNWVVQT09"
+            "link": "zoommtg://zoom.us/join?confno=9953216848&pwd=VmtuRDIwREM2V1M5cVYxOUpZNWVVQT09"
         }
     ],
     "Wednesday": [
         {
             "period": "1",
             "teacher": "SP Miss",
-            "link": "https://us04web.zoom.us/j/5919839048?pwd=YWgwUXEwN1Y4OGR1ZWh5ZmdFNzdCUT09"
+            "link": "zoommtg://zoom.us/join?confno=5919839048&pwd=YWgwUXEwN1Y4OGR1ZWh5ZmdFNzdCUT09"
         },
         {
             "period": "2",
             "teacher": "DIL Sir",
-            "link": "https://us04web.zoom.us/j/3797708792?pwd=UHJyRFRJTGFwTitkTW53dlk5Z2Q0Zz09"
+            "link": "zoommtg://zoom.us/join?confno=3797708792&pwd=UHJyRFRJTGFwTitkTW53dlk5Z2Q0Zz09"
         }
     ],
     "Thursday": [
         {
             "period": "1",
             "teacher": "NURL Sir",
-            "link": "https://us04web.zoom.us/j/4668101893?pwd=UCs5SmpRelhNdGtDUHlCMXNZT0Qxdz09"
+            "link": "zoommtg://zoom.us/join?confno=4668101893&pwd=UCs5SmpRelhNdGtDUHlCMXNZT0Qxdz09"
         },
         {
             "period": "2",
             "teacher": "RA Sir",
-            "link": "https://us04web.zoom.us/j/3931338015?pwd=Qk5OaVdJeFZ1MnNYaTNTZVgvNU8rdz09"
+            "link": "zoommtg://zoom.us/join?confno=3931338015&pwd=Qk5OaVdJeFZ1MnNYaTNTZVgvNU8rdz09"
         }
     ],
     "form_class": [
         {
             "period": "",
             "teacher": "ANK Sir",
-            "link": "https://us04web.zoom.us/j/2809826881?pwd=OHdwQTNLb1RXR1ZGUGNBanhPZTRPUT09"
+            "link": "zoommtg://zoom.us/join?confno=2809826881&pwd=OHdwQTNLb1RXR1ZGUGNBanhPZTRPUT09"
         }
     ]
 }
