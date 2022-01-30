@@ -65,7 +65,7 @@ def class_msg(class_period, class_teacher, class_link):
 
 def class_open(class_link):
     if sys.platform == 'win32':
-        os.system('start ' + class_link)
+        os.system('start "" "' + class_link + '"')
     elif sys.platform == 'linux':
         os.system('xdg-open ' + class_link)
     elif sys.platform == 'darwin':
