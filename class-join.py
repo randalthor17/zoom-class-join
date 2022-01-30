@@ -72,7 +72,7 @@ def class_open(class_link):
         os.system('open ' + class_link)
 
 def main():
-    jsonobj = load_json('class-join.json')
+    jsonobj = load_json('class-routine.json')
     class_rn = select_class(jsonobj)
     class_period, class_teacher, class_link = parse_class(class_rn)
     class_msg(class_period, class_teacher, class_link)
