@@ -25,11 +25,11 @@ def select_class(jsonobj):
         else:
             print('There is no class at this time.')
             input('Press enter to exit.')
-            quit()
+            sys.exit()
     else:
         print('There is no class at this time.')
         input('Press enter to exit.')
-        quit()
+        sys.exit()
     return class_rn
 
 def parse_class(class_rn):
