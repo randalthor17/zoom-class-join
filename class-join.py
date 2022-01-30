@@ -10,17 +10,17 @@ def get_weekday():
     return datetime.date.today().strftime('%A')
 
 def get_time():
-    return datetime.datetime.now().strftime('%H%M')
+    return int(datetime.datetime.now().strftime('%H%M'))
 
 def select_class(jsonobj):
     weekday = get_weekday()
     time = int(get_time())
     if weekday in jsonobj:
-        if time >= 1000 & time < 1020 :
-            class_rn = jsonobj['form_class'][0]
-        elif time >= 1020 & time < 1105 :
+        if time >= 1000 and time < 1020 :
+           class_rn = jsonobj['form_class'][0]
+        elif time >= 1020 and time < 1105 :
             class_rn = jsonobj[weekday][0]
-        elif time >= 1105 & time < 1200 :
+        elif time >= 1105 and time < 1200 :
             class_rn = jsonobj[weekday][1]
         else:
             print('There is no class at this time.')
