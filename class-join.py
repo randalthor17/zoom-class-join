@@ -16,9 +16,9 @@ def select_class(jsonobj):
     weekday = get_weekday()
     time = int(get_time())
     if weekday in jsonobj:
-        if time >= 1000 and time < 1020 :
+        if time >= 1000 and time < 1015 :
            class_rn = jsonobj['form_class'][0]
-        elif time >= 1020 and time < 1105 :
+        elif time >= 1015 and time < 1105 :
             class_rn = jsonobj[weekday][0]
         elif time >= 1105 and time < 1200 :
             class_rn = jsonobj[weekday][1]
