@@ -1,26 +1,47 @@
 #!/usr/bin/env python3
 
-import datetime, json, os, sys
+import json
+import os
+import sys
+try:
+    import datetime
+except:
+    consent = input(
+        "This program requires datetime module. Should we install it for you? (y/n)")
+    if consent == 'y' or consent == '':
+        os.system('python3 -m pip install datetime')
+        print('datetime module installed.')
+        print("Please re-open the terminal and/or run this program again.")
+        input('Press enter to exit.')
+        quit()
+    else:
+        print('You have declined to install the module.')
+        input('Press enter to exit.')
+        quit()
+
 
 def load_json(path):
     with open(path, 'r') as f:
         return json.load(f)
 
+
 def get_weekday():
     return datetime.date.today().strftime('%A')
 
+
 def get_time():
     return int(datetime.datetime.now().strftime('%H%M'))
+
 
 def select_class(jsonobj):
     weekday = get_weekday()
     time = int(get_time())
     if weekday in jsonobj:
-        if time >= 1000 and time < 1015 :
-           class_rn = jsonobj['form_class'][0]
-        elif time >= 1015 and time < 1105 :
+        if time >= 1000 and time < 1015:
+            class_rn = jsonobj['form_class'][0]
+        elif time >= 1015 and time < 1105:
             class_rn = jsonobj[weekday][0]
-        elif time >= 1105 and time < 1200 :
+        elif time >= 1105 and time < 1200:
             class_rn = jsonobj[weekday][1]
         else:
             print('There is no class at this time.')
@@ -32,11 +53,13 @@ def select_class(jsonobj):
         sys.exit()
     return class_rn
 
+
 def parse_class(class_rn):
     class_period = class_rn['period']
     class_teacher = class_rn['teacher']
     class_link = class_rn['link']
     return class_period, class_teacher, class_link
+
 
 def class_msg(class_period, class_teacher, class_link):
     if class_period == '':
@@ -71,11 +94,13 @@ def class_open(class_link):
     elif sys.platform == 'darwin':
         os.system('open ' + class_link)
 
+
 def main():
     jsonobj = load_json('class-routine.json')
     class_rn = select_class(jsonobj)
     class_period, class_teacher, class_link = parse_class(class_rn)
     class_msg(class_period, class_teacher, class_link)
+
 
 if __name__ == '__main__':
     main()
